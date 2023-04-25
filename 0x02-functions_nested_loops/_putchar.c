@@ -3,9 +3,10 @@
 /**
  * _putchar - print _putchar
  *
- * Return nothing.
+ * Return: 0.
  */
-void _putchar (void)
+int _putchar (void)
 {
 printf("_putchar\n");
+return (0);
 }
