@@ -16,5 +16,6 @@ while (c < 10)
 		b++;
 	}
 	_putchar('\n');
+	c++;
 }
 }
