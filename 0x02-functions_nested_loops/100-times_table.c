@@ -38,11 +38,8 @@ if (n >= 0 && n <= 15)
 				_putchar('0' + (result / 10) % 10);
 			}
 			_putchar('0' + result % 10);
-			if (column == n)
-			{
-				_putchar ('\n');
-			}
 		}
+		_putchar('\n');
 	}
 }
 }
