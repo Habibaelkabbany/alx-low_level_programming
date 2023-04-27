@@ -8,17 +8,17 @@
 
 int main(void)
 {
-int n;
+long int n;
 int c;
-int x;
-int r;
+long int x;
+long int r;
 x = 2;
 n = 1;
-printf("%d, %d", n, x);
+printf("%ld, %ld", n, x);
 for (c = 2; c < 50; c++)
 {
 r = n + x;
-printf(", %d", r);
+printf(", %ld", r);
 n = x;
 x = r;
 }
