@@ -22,5 +22,6 @@ printf(", %ld", r);
 n = x;
 x = r;
 }
+printf("\n");
 return (0);
 }
