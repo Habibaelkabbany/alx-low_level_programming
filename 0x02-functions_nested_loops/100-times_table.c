@@ -17,10 +17,10 @@ if (n >= 0 && n <= 15)
 	for (row = 0; row < n + 1 ; row++)
 	{
 		_putchar('0');
-		_putchar(',');
 		for (column = 1; column < n + 1; column++)
 		{
 			result = row * column;
+			_putchar(',');
 			_putchar(' ');
 			if (result < 10)
 			{
@@ -41,10 +41,6 @@ if (n >= 0 && n <= 15)
 			if (column == n)
 			{
 				_putchar ('\n');
-			}
-			else
-			{
-				_putchar (',');
 			}
 		}
 	}
