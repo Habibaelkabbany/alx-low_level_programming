@@ -19,8 +19,8 @@ for (i = 1; i < 100; i++)
 	{
 		printf("Buzz");
 	}
-	printf(" ");
-	if (i % 3 != 0 && i % 5 != 0)
+	_putchar(' ');
+	if ((i % 3 != 0) && (i % 5 != 0))
 	{
 		printf("%d ", i);
 	}
