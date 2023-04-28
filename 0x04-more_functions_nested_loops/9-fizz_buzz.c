@@ -19,7 +19,7 @@ for (i = 1; i < 100; i++)
 	{
 		printf("Buzz");
 	}
-	_putchar(' ');
+	putchar(' ');
 	if ((i % 3 != 0) && (i % 5 != 0))
 	{
 		printf("%d ", i);
