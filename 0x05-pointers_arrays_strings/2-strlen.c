@@ -13,6 +13,7 @@ int count;
 char current;
 
 count = 0;
+current = *s;
 while (current != '\0')
 {
 	count++;
