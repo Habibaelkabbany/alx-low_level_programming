@@ -15,7 +15,7 @@ long int r;
 x = 2;
 n = 1;
 printf("%ld, %ld", n, x);
-for (c = 2; c < 96; c++)
+for (c = 2; c < 98; c++)
 {
 r = n + x;
 printf(", %ld", r);
