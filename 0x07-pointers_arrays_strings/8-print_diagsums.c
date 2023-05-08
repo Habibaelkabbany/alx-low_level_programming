@@ -21,7 +21,5 @@ for (j = size - 1; j >= 0; j--)
 {
 	sumL +=   a[j * size + (size - j - 1)];
 }
-printf("%d, %d", sumR, sumL);
-_putchar('\n');
-
+printf("%d, %d\n", sumR, sumL);
 }
