@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * *_memset - replaces certain places with char
@@ -17,5 +16,6 @@ for (i = 0; i < n; i++)
 {
 	*(s++) = b;
 }
+s = s - n + 1;
 return (s);
 }
