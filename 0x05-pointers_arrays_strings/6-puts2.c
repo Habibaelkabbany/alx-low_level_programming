@@ -26,4 +26,5 @@ if (even % 2 != 0)
 {
 	_putchar(str[even - 1]);
 }
+_putchar('\n');
 }
