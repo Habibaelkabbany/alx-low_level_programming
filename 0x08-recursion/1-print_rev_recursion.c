@@ -15,7 +15,7 @@ if (current != '\0')
 	_print_rev_recursion(++s);
 	_putchar(current);
 }
-else
+else if (current == '\n')
 {
 	_putchar('\n');
 }
