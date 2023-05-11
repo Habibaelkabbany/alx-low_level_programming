@@ -9,7 +9,14 @@
 
 int _sqrt_recursion(int n)
 {
-return (_sqrt_helper(n, n / 2));
+if (n >= 0)
+{
+return (_sqrt_helper(n, 0));
+}
+else
+{
+return (-1);
+}
 }
 /**
  * _sqrt_helper - gets a number to the root of another
@@ -20,7 +27,7 @@ return (_sqrt_helper(n, n / 2));
  */
 int _sqrt_helper(int n, int y)
 {
-if (y <= 0)
+if (y == n / 2)
 {
 	return (-1);
 }
@@ -30,6 +37,6 @@ else if ((y * y) == n)
 }
 else
 {
-	return (_sqrt_helper(n, y - 1));
+	return (_sqrt_helper(n, y + 1));
 }
 }
