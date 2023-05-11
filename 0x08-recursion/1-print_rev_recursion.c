@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _puts_recursion - prints string recursively
+ * _print_rev_recursion - prints string recursively
  *@s: pointer to beginning of string
  */
 
-void _puts_recursion(char *s)
+void _print_rev_recursion(char *s)
 {
 char current;
 
