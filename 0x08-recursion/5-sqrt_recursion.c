@@ -9,7 +9,7 @@
 
 int _sqrt_recursion(int n)
 {
-return (_sqrt_helper(n, n - 1));
+return (_sqrt_helper(n, n / 2));
 }
 /**
  * _sqrt_helper - gets a number to the root of another
