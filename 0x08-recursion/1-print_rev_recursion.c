@@ -12,7 +12,7 @@ char current;
 current = *s;
 if (current != '\0')
 {
-	_puts_recursion(++s);
+	_print_rev_recursion(++s);
 	_putchar(current);
 }
 else
