@@ -11,7 +11,7 @@
  */
 int checkifNum(char *s)
 {
-long unsigned int i;
+unsigned int i;
 
 for (i = 0; i < strlen(s); i++)
 {
