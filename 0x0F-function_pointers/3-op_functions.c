@@ -22,7 +22,7 @@ return (a + b);
 
 int op_sub(int a, int b)
 {
-return (a + b);
+return (a - b);
 }
 /**
  * op_mul - product of a and b
