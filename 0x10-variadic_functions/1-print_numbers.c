@@ -18,8 +18,6 @@ unsigned int i;
 va_start(args, n);
 i = 0;
 
-if (n == 0)
-	return;
 printf("%d", va_arg(args, int));
 i++;
 while (i < n)
