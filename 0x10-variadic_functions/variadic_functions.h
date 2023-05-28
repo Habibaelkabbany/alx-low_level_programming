@@ -1,20 +1,9 @@
-#ifndef CALC_H
-#define CALC_H
+#ifndef VARIADIC_FUNCTIONS_H
+#define VARIADIC_FUNCTIONS_H
 #include <stddef.h>
 #include <stdlib.h>
 #include <stdio.h>
 
-/**
- * struct op - Struct op
- *
- * @op: The operator
- * @f: The function associated
- */
-typedef struct op
-{
-	char *op;
-	int (*f)(int a, int b);
-} op_t;
 int sum_them_all(const unsigned int n, ...);
 int op_sub(int a, int b);
 int op_mul(int a, int b);
