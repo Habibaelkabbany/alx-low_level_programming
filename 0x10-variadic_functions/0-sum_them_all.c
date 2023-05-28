@@ -7,7 +7,7 @@
  * @n: number of args
  * @...: ellips to signify numerous args
  *
- * ieturn: sum of numerous numbers.
+ * Return: sum of numerous numbers.
  */
 int sum_them_all(const unsigned int n, ...)
 {
