@@ -7,7 +7,7 @@
 int sum_them_all(const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
-int op_div(int a, int b);
+void print_numbers(const char *separator, const unsigned int n, ...);
 int op_mod(int a, int b);
 int (*get_op_func(char *s))(int, int);
 void print_diagsums(int *a, int size);

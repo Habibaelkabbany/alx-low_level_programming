@@ -24,7 +24,9 @@ printf("%d", va_arg(args, int));
 i++;
 while (i < n)
 {
-	printf("%s%d", separator, va_arg(args, int));
+	if (separator != NULL)
+		printf("%s", separator);
+	printf("%d", va_arg(args, int));
 	i++;
 }
 printf("\n");
