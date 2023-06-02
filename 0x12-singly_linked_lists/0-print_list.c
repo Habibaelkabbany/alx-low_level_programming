@@ -14,6 +14,11 @@ size_t print_list(const list_t *h)
 	unsigned int i;
 
 	i = 0;
+	if (h == NULL)
+	{
+		printf("[0] (nil)\n");
+		return (i);
+	}
 	return (print_list_helper(h, i));
 }
 /**
