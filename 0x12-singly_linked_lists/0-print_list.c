@@ -35,6 +35,7 @@ size_t print_list_helper(const list_t *h, unsigned int num)
 		{
 			printf("[%u] %s\n", (*h).len, (*h).str);
 		}
+		num++;
 		return (num);
 	}
 	else
