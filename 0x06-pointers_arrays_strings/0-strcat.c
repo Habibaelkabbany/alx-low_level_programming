@@ -26,7 +26,6 @@ while (dest[k] != '\0')
 {
 	k++;
 }
-k++;
 for (j = 0; j < i; j++)
 {
 	dest[k] = src[j];
