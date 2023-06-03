@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *_strcpy - copies one string to another 
+ *_strcpy - copies one string to another
  *@src: pointer to 1st string
  *@dest: pointer to second string
  *
@@ -11,13 +11,19 @@
 char *_strcpy(char *dest, char *src)
 {
 
-char current;
+int i;
+int j;
 
-current = *src;
-while (current != '\0')
+i = 0;
+while (src[i] != '\0')
 {
-	count++;
-	current = *(++s);
+	i++;
 }
-return (count);
+for (j = 0; j < i; j++)
+{
+	dest[j] = src[j];
+}
+dest[j] = '\0';
+
+return (dest);
 }

@@ -6,12 +6,12 @@
  *
  * Return: Always 0.
  */
-int main(void)
+int main(int argc, char *argv[])
 {
-    char s[10] = "My School";
+    //char s[10] = argv[1];
 
-    printf("%s\n", s);
-    rev_string(s);
-    printf("%s\n", s);
+    printf("%s\n", argv[1]);
+    rev_string(argv[1]);
+    printf("%s\n", argv[1]);
     return (0);
 }
