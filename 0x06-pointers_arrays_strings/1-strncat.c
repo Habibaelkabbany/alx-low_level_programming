@@ -27,7 +27,7 @@ while (dest[k] != '\0')
 {
 	k++;
 }
-if (i < n)
+if (i >= n)
 {
 	for (j = 0; j < n; j++)
 	{
