@@ -23,6 +23,8 @@ i = 0;
 
 while (b[i] != '\0')
 	i++;
+if (i == 0)
+	return (0);
 j = i - 1;
 i = 1;
 for (; j > 0; j--)
