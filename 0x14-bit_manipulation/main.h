@@ -1,6 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-
 #include <stdio.h>
 
 
@@ -17,3 +16,4 @@ void set_string(char **s, char *to);
 unsigned int count(char *s1);
 
 #endif
+
